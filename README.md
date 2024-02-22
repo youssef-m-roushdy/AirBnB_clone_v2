@@ -193,7 +193,7 @@ SQLAlchemy will be your best friend!
 
 It’s time to change your storage engine and use `SQLAlchemy`
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/daaef631636b40e0a279a8f240703e065f9d3481.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240222T120225Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0133592fb1629b8f43fb9fb60d42e695068cfb881c99ab96beb32f1ecbc842ae" alt="daaef631636b40e0a279a8f240703e065f9d3481.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240222T162733Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7b45ce1309bce71555da285a31a553e4998838556df970204a8796d678f974c4">
+<img src="https://camo.githubusercontent.com/021ef314d362a84de48752558cf7aef317e8daaa94fab56299e04996987703d6/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d6869676865722d6c6576656c5f70726f6772616d6d696e672b2f3238392f416972426e625f44425f6469616772616d6d2e6a7067" alt="">
 
 In the following steps, you will make multiple changes:
 
