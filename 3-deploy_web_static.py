@@ -10,7 +10,7 @@ from os.path import exists
 # do_deploy = __import__('2-do_deploy_web_static').do_deploy
 
 
-env.hosts = ['35.237.166.125', '54.167.61.201']  # <IP web-01>, <IP web-02>
+env.hosts = ["54.144.144.164", "34.207.237.14"]  # <IP web-01>, <IP web-02>
 # ^ All remote commands must be executed on your both web servers
 # (using env.hosts = ['<IP web-01>', 'IP web-02'] variable in your script)
 
@@ -69,10 +69,3 @@ def deploy():
         return False
     result = do_deploy(new_archive_path)
     return result
-
-
-# The script follows these steps:
-# Call the do_pack() function & store the path of the created archive
-# Return False if no archive has been created
-# Call the do_deploy(archive_path) func, using the path of the new archive
-# Return the return value of do_deploy
