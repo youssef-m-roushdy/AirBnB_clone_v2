@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+""" 1. Script to start a Flask web application HBNB"""
 
 from flask import Flask
 
