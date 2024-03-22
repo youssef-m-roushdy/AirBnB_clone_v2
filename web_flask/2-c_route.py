@@ -16,7 +16,7 @@ def hbnb():
     return "HBNB"
 
 
-@app.route('/c/<text>')
+@app.route('/c/<text>',  strict_slashes=False)
 def c(text):
     # show the user profile for that user
     return 'C {}'.format(text.replace("_", " "))

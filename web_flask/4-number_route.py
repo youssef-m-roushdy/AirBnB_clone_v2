@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 3. Script to start a Flask web application Python is cool!"""
+""" 4. Script to start a Flask web application Is it a number?"""
 
 from flask import Flask
 
@@ -25,6 +25,11 @@ def c(text):
 @app.route('/python/<text>',  strict_slashes=False)
 def python(text="is cool"):
     return 'Python {}'.format(text.replace("_", " "))
+
+
+@app.route('/number/<int:n>', strict_slashes=False)
+def check_number(n):
+    return f"{n} is a number"
 
 
 if __name__ == '__main__':
