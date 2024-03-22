@@ -1,21 +1,26 @@
 #!/usr/bin/python3
+""" 2. Script to start a Flask web application C is fun!"""
 
 from flask import Flask
 
 app = Flask(__name__)
 
+
 @app.route('/', strict_slashes=False)
 def hello():
     return "Hello HBNB!"
+
 
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
     return "HBNB"
 
+
 @app.route('/c/<text>')
 def c(text):
     # show the user profile for that user
     return 'C {}'.format(text.replace("_", " "))
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
